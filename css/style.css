@@ -1,0 +1,115 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: var(--body-bg-color);
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 0 0 2.5rem;
+}
+
+.profile {
+  width: 21.75rem;
+  height: 18.25rem;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.875rem;
+}
+
+#profileImage img {
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid #00FF00;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+#profileText {
+  text-align: center;
+  margin-top: 1.875rem;
+}
+
+#profileText h2{
+  font-weight: bold;
+  font-size: 1.4375rem;
+  line-height: 1.8125rem;
+  color: var(--text-color);
+
+  margin-bottom: .625rem;
+}
+
+#profileText p{
+  font-weight: 300;
+  font-size: .8125rem;
+  line-height: 1rem;
+  color: var(--text-color);
+}
+
+.link {
+  width: 348px;
+  height: 300px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.linkContainer a {
+  text-decoration: none;
+}
+
+.linkContainer p {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--text-color);
+  margin-left: 20px;
+}
+
+.linkContainer img {
+  size: 24px;
+}
+
+.link-email,
+.link-linkedin,
+.link-github,
+.link-work,
+.link-location {
+  display: flex;
+  align-items: center;
+}
+
+.link-linkedin,
+.link-github,
+.link-work,
+.link-location {
+  margin-bottom: 20px;
+}
