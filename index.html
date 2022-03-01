@@ -4,25 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio - Lucas Santos Mumbarra">
   <title>Lucas Mumbarra | Portfolio</title>
   <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
 </head>
 <body>
   <main>
     <div class="leftColumn">
-      <section class="profile">
-        <div id="profileImage">
-          <img src="./assets/avatarUser.jpg" alt="Avatar Photo - Lucas Mumbarra">
-        </div>
-        <div id="profileText">
-          <h2>Lucas Santos Mumbarra</h2>
-          <p>Full Stack Developer</p>
-        </div>
-      </section>
+      <section class="profile" id="profile"></section>
   
       <section class="link">
         <div class="linkContainer">
@@ -59,89 +53,110 @@
         </div>
       </section>
 
-      <!-- <section class="technologies">
+      <section class="technologies">
         <h2>Tecnologias</h2>
-        <div class="techs">
-          <p>Javascript</p>
+        <div class="techContainer">
+          <div class="techOne">
+            <div class="techs">
+              <p>Javascript</p>
+            </div>
+            <div class="techs">
+              <p>ReactJS</p>
+            </div>
+            <div class="techs">
+              <p>NodeJS</p>
+            </div>
+          </div>
+          
+          <div class="techTwo">
+            <div class="techs">
+              <p>GIT</p>
+            </div>
+            <div class="techs">
+              <p>GitHub</p>
+            </div>
+            <div class="techs">
+              <p>Html</p>
+            </div>
+          </div>
+          
+          <div class="techTree">
+            <div class="techs">
+              <p>Css</p>
+            </div>
+          </div>
         </div>
-        <div class="techs">
-          <p>ReactJS</p>
-        </div>
-        <div class="techs">
-          <p>NodeJS</p>
-        </div>
-        <div class="techs">
-          <p>GIT</p>
-        </div>
-        <div class="techs">
-          <p>GitHub</p>
-        </div>
-        <div class="techs">
-          <p>Html</p>
-        </div>
-        <div class="techs">
-          <p>Css</p>
-        </div>
-      </section> -->
+      </section>
 
-      <!-- <section class="experiences">
+      <section class="experiences">
         <h2>Experrências</h2>
-        <div>
-          <div>
-            <li>
+        <div class="expContainer">
+          <div class="exp">
+            <div class="expCompany">
+              <div class="circle"></div>
               <h3>Faculdade Evangélica de São Paulo</h3>
-              <p>Dez 2021 - Jan 2022</p>
-              <p>Técnico em Informática</p>
-            </li>
+            </div>
+            <p class="expYear">Dez 2021 - Jan 2022</p>
+            <p class="expProfession">Técnico em Informática</p>
           </div>
 
-          <div>
-            <li>
+          <div class="exp">
+            <div class="expCompany">
+              <div class="circle"></div>
               <h3>Arim Componentes S/A</h3>
-              <p>Fev 2021 - Dez 2021</p>
-              <p>Alimentador de Linha de Produção</p>
-            </li>
+            </div>
+            <p class="expYear">Fev 2021 - Dez 2021</p>
+            <p class="expProfession">Alimentador de Linha de Produção</p>
           </div>
 
-          <div>
-            <li>
+          <div class="exp">
+            <div class="expCompany">
+              <div class="circle"></div>
               <h3>Gonçalves S/A Indústria Gráfica</h3>
-              <p>Jan 2019 - Dez 2020</p>
-              <p>Aprendiz de Técnico Eletroeletrônico</p>
-            </li>
+            </div>
+            <p class="expYear">Jan 2019 - Dez 2020</p>
+            <p class="expProfession">Aprendiz de Técnico Eletroeletrônico</p>
           </div>
         </div>
-      </section> -->
+      </section>
 
-      <!-- <section class="education">
+      <section class="education">
         <h2>Educação</h2>
-        <div>
-          <div>
-            <li>
+        <div class="eduContainer">
+          <div class="edu">
+            <div class="eduCourse">
+              <div class="circle"></div>
               <h3>Análise e Desenvolvimento de Sistemas</h3>
-              <p>2022 - 2024</p>
-              <p>UNIP</p>
-            </li>
+            </div>
+            <p class="eduYear">2022 - 2024</p>
+            <p class="eduSchool">UNIP</p>
           </div>
 
-          <div>
-            <li>
+          <div class="edu">
+            <div class="eduCourse">
+              <div class="circle"></div>
               <h3>Técnico em Eletroeletrônica</h3>
-              <p>2019 - 2020</p>
-              <p>SENAI - Suzana Dias</p>
-            </li>
+            </div>
+            <p class="eduYear">2019 - 2020</p>
+            <p class="eduSchool">SENAI - Suzana Dias</p>
           </div>
 
-          <div>
-            <li>
-              <h3>CAI - Eletricista de Manutenção Eletroeletrônica</h3>
-              <p>2017 - 2018</p>
-              <p>SENAI - Suzana Dias</p>
-            </li>
+          <div class="edu">
+            <div class="eduCourse">
+              <div class="circle"></div>
+              <h3>Eletricista de Manutenção Eletroeletrônica</h3>
+            </div>
+            <p class="eduYear">2017 - 2018</p>
+            <p class="eduSchool">SENAI - Suzana Dias</p>
           </div>
         </div>
-      </section> -->
+      </section>
+    </div>
+    <div class="rightColumn">
+
     </div>
   </main>
 </body>
+
+<script src="./js/api.js"></script>
 </html>

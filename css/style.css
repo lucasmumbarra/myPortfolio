@@ -67,19 +67,22 @@ body {
 }
 
 .link {
-  width: 348px;
-  height: 300px;
+  width: 21.75rem;
+  height: 18.75rem;
   background: var(--bg-cards);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   display: flex;
   align-items: center;
+  margin-bottom: 1.875rem;
 }
 
-.linkContainer {
+.linkContainer,
+.expContainer,
+.eduContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
+  margin-left: 2.5rem;
 }
 
 .linkContainer a {
@@ -88,14 +91,14 @@ body {
 
 .linkContainer p {
   font-weight: normal;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: .8125rem;
+  line-height: 1rem;
   color: var(--text-color);
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .linkContainer img {
-  size: 24px;
+  size: 1.5 rem;
 }
 
 .link-email,
@@ -111,5 +114,128 @@ body {
 .link-github,
 .link-work,
 .link-location {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+}
+
+.technologies {
+  width: 21.75rem;
+  height: 208px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 1.875rem;
+}
+
+.technologies h2,
+.experiences h2,
+.education h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  color: var(--text-color);
+  margin: 1.875rem 0 0 1.25rem;
+}
+
+.techContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.25rem;
+}
+
+.techOne,
+.techTwo,
+.techTree {
+  display: flex;
+  justify-content: center;
+}
+
+.techs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .46875rem;
+
+  width: 5.375rem;
+  height: 1.5rem;
+  background: var(--bg-techs);
+  border-radius: 30px;
+}
+
+.techs p {
+  font-weight: bold;
+  font-size: .625rem;
+  line-height: .8125rem;
+  text-align: center;
+}
+
+.experiences {
+  width: 21.75rem;
+  height: 17.5rem;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 1.875rem;
+}
+
+.expContainer,
+.eduContainer {
+  margin-top: 1.25rem;
+}
+
+.exp,
+.edu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.expCompany,
+.eduCourse {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: .3125rem;
+  height: .3125rem;
+  border-radius: 50%;
+  background: var(--text-color);
+  margin-right: 10px;
+}
+
+.expCompany h3,
+.eduCourse h3 {
+  font-weight: bold;
+  font-size: .875rem;
+  line-height: 1.125rem;
+  color: var(--text-color);
+}
+
+.expYear,
+.eduYear {
+  font-weight: 300;
+  font-size: .75rem;
+  line-height: .9375rem;
+  margin-left: .9375rem;
+  color: var(--text-color);
+}
+
+.expProfession,
+.eduSchool {
+  font-weight: normal;
+  font-size: .75rem;
+  line-height: 15px;
+  margin-left: 15px;
+  color: var(--text-color);
+}
+
+.education {
+  width: 21.75rem;
+  height: 18.75rem;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 1.875rem;
 }
