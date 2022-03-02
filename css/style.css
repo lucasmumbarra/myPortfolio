@@ -17,6 +17,11 @@ body {
   background: var(--body-bg-color);
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+}
+
 .leftColumn {
   display: flex;
   flex-direction: column;
@@ -238,4 +243,141 @@ body {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   margin-bottom: 1.875rem;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 0 0 3.75rem;
+}
+
+.myProjects {
+  width: 53.25rem;
+  height: 5.375rem;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1.875rem;
+}
+
+.myProjectsContainer {
+  width: 49.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myProjectsContainer h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  color: var(--text-color);
+}
+
+.myProjectsContainer a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: .875rem;
+  line-height: 1.125rem;
+  color: var(--text-color);
+}
+
+.reposContainer {
+  width: 25.90625rem;
+  height: 5.375rem;
+  display: grid;
+  grid-template-columns: 25.90625rem 25.90625rem;
+  grid-template-rows: auto;
+  gap: 1.875rem 1.4375rem;
+}
+
+.reposContainer a {
+  text-decoration: none;
+}
+
+.repo {
+  width: 25.90625rem;
+  height: 11.625rem;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.repoLineOne,
+.repoLineTwo,
+.repoLineTree {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.875rem;
+}
+
+.repoLineOne img,
+.gitStar img,
+.gitBranch img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.repoLineOne h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--text-color);
+  margin:0 0 1.375rem 1rem;
+}
+
+.repoLineTwo p {
+  font-weight: normal;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: var(--text-color);
+  margin-bottom: 2.3125rem;
+}
+
+.repoGit {
+  display: flex;
+}
+
+.gitStar,
+.gitBranch {
+  display: flex;
+}
+
+.gitStar p,
+.gitBranch p {
+  font-weight: normal;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: var(--text-color);
+  margin:0 .3125rem 0 .3125rem;
+}
+
+.repoLanguage {
+  display: flex;
+  align-items: center;
+  margin-left: 9.375rem;
+}
+
+.repoLanguage p {
+  font-weight: normal;
+  font-size: .875rem;
+  line-height: 1.125rem;
+  color: var(--text-color);
+  margin-left: .5rem;
+}
+
+.circleLanguage {
+  width: .9375rem;
+  height: .9375rem;
+  background: #E7DE79;
+  border: 2px solid var(--text-color);
+  box-sizing: border-box;
+  border-radius: 100%;
 }
