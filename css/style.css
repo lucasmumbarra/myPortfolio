@@ -293,7 +293,7 @@ main {
   display: grid;
   grid-template-columns: 25.90625rem 25.90625rem;
   grid-template-rows: auto;
-  gap: 1.875rem 1.4375rem;
+  gap: .8125rem 1.4375rem;
 }
 
 .reposContainer a {
@@ -381,4 +381,21 @@ main {
   border: 2px solid var(--text-color);
   box-sizing: border-box;
   border-radius: 100%;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+footer p,
+footer a {
+  font-weight: normal;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: var(--text-color);
+}
+
+footer a {
+  text-decoration: none;
 }

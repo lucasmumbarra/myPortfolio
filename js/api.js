@@ -4,7 +4,7 @@
   const user = "lucasmumbarra"
   const client_id = "aacc39334836ed5fa8bb"
   const client_secret = "30385253f2418d5284a86f46cfd08a11320f020b"
-  const count = 6;
+  const count = 14;
   const sort = "stargazers"
   const direction = "asc"
 
