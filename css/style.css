@@ -1,6 +1,6 @@
 :root {
   --body-bg-color: #22212C;
-  --text-color: #837E9F;
+  --text-color: #bcb8d1;
   --bg-cards: #302F3D;
   --bg-techs: #CB92B1;
 }
@@ -103,7 +103,8 @@ main {
 }
 
 .linkContainer img {
-  size: 1.5 rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .link-email,
